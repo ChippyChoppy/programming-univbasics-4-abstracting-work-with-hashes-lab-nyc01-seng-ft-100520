@@ -3,10 +3,12 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  hash = {key: "Steve"}
+  hash = {key: value}
   hash[:key] 
   if hash[:key]
-    puts "Steve"
+    value
+  else
+    nil 
   end
 end
 
