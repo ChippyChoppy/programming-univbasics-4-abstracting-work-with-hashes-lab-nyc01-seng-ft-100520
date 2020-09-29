@@ -3,8 +3,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  hash = {name: "Steve"}
-  hash[:key] 
+  {name: "Steve"}
+  hash[:name] 
 end
 
 def update_counting_hash(hash, key)
