@@ -6,7 +6,7 @@ def read_from_hash(hash, key)
   hash = {name: "Steve"}}
   hash[:key] 
   if hash[:key]
-    value
+    p "Steve"
   else
     nil 
   end
